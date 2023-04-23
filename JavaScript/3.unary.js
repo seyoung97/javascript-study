@@ -28,3 +28,8 @@ console.log(+""); //0
 console.log(+true); //1
 console.log(+"text"); // NaN (Not a Number)
 console.log(+undefined); // NaN (Not a Number)
+
+// !! boolean 값으로 변환할 때 사용
+console.log(!!1); // ! 한번만 하면 해당 값의 반대되는 불리언 값이 나옴 그래서 두 번 부정
+// ! => 부정연산자
+// !! => 값을 boolean 타입으로 변환
