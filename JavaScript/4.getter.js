@@ -20,8 +20,12 @@ class Student {
   set fullName(value) {
     console.log(value);
   }
+  // student.fullName에 특정한 값을 할당하면 set이 호출됨
 }
 
 const student = new Student("정", "세영");
 //console.log(student.fullName); // 접근자 프로퍼티 없을 때는 이렇게 호출해야 함
 console.log(student.fullName); // 정 세영
+// 접근하면 get이라는 함수가 호출이 되어서 fullName이 출력
+
+student.fullName = "김 철수"; // 김 철수
