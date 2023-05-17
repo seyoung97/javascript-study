@@ -8,6 +8,7 @@ const isTrue = true;
 // wrapper 객체를 통해서 할당
 const issTrue = new Boolean(true);
 
+
 /* 
 * Falshy
 - 0
