@@ -1,12 +1,12 @@
 // Bulean Object
-true.valueOf() 
+true.valueOf();
 // 불리언값 출력
 
 // 원시타입으로 바로 할당
-const isTrue = true
+const isTrue = true;
 
 // wrapper 객체를 통해서 할당
-const issTrue = new Boolean(true)
+const issTrue = new Boolean(true);
 
 /* 
 * Falshy
@@ -15,7 +15,7 @@ const issTrue = new Boolean(true)
 - null
 - NaN
 - undefined
-- '' 빈문자열
+- ''빈문자열
 
 * Truthy
 - 1
