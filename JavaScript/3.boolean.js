@@ -16,7 +16,7 @@ const issTrue = new Boolean(true);
 - NaN
 - undefined
 - ''빈문자열
-
+-
 * Truthy
 - 1
 - -1
