@@ -7,7 +7,7 @@ console.log(fruits[1]); // 🍎
 console.log(fruits[2]); // 🍇
 console.log(fruits[3]); // 🍑
 
-// length
+// length 속성
 // 배열 안에 몇개의 아이템이 있는지 보여줌
 console.log(fruits.length); // 4
 
