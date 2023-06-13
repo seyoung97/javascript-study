@@ -43,3 +43,18 @@ const { name, age, job: ocupation, pet = "cat" } = Joey;
 console.log(name);
 console.log(ocupation); // job 대신 occupation이라고 변수 이름 변경
 console.log(pet); // 새로운 키 쓰고 기본 값 설정도 가능
+
+// Quiz
+const prop = {
+  name: "Button",
+  styles: {
+    size: 20,
+    color: "black",
+  },
+};
+
+function changeColor({ styles: { color } }) {
+  console.log("quiz", color);
+}
+// 구조분해 할당도 중첩적으로 할 수 있음
+changeColor(prop);
